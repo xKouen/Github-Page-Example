@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link rel="shortcut icon" href="./images/favicon-sysbook.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Sysbook</h2>
+            </div>
+                <ul class="nav__link nav__link--menu">
+                    <li class="nav__items">
+                        <a href="index.html" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Lista de Usuarios</a>
+                    </li>
+
+                    <img src="./images/close.svg" class="nav__close" alt="Icono cerrar">
+
+                </ul>
+                <div class="nav__menu">
+                    <img src="./images/menu.svg" class="nav__img" alt="Menu-hamburguesa-icono">
+                </div>
+        </nav>
+        <form action="proceso.php" method="post" name="frm">
+            <h2 id="titulo-contacto">Contacto</h2>
+            <p>Nombre</p>
+            <input type="text" name="nombre" placeholder="Nombre" >   
+            <p>Correo</p>
+            <input type="email" name="email" id="email" placeholder="Correo">
+            <p>Número</p>
+            <input type="text" name="numero" placeholder="Número">
+            <p>Asunto</p>
+            <input type="text" name="asunto" placeholder="Asunto">
+            <p>Descripción</p>
+            <textarea id="" name="descripcion" cols="10" rows="8" placeholder="Escribe aquí tu mensaje"></textarea>
+            <br>
+            <input type="submit" value="Enviar" id="botonEnviar">
+            
+        </form>
+        <!-- <section class="hero__container container">
+            <h1 class="hero__title">En <span id="acentoColor">Sysbook</span><br> te prestamos un libro</h1>
+            <p class="hero__paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas tempore tenetur? Quos dolor odit, itaque qui, eaque corrupti possimus ullam deleniti accusantium doloribus rem magni eligendi. Magni, earum sequi.
+            </p>
+            <a href="#" class="cta">Descarga Ya</a>
+        </section> -->
+    </header>
+
+    <!-- <header>
+        <a href="#" class="logo">
+            <img src="../images/sysbook (3).png" alt="Sysbook">
+            <h2 id="nombre-empresa">Sysbook</h2>
+        </a>
+        <nav>
+            <a href="#" class="nav-link">Inicio</a>
+            <a href="#" class="nav-link">Acerca de</a>
+            <a href="#" class="nav-link">Contacto</a>
+            <a href="#" class="nav-link">Lista de usuarios</a>
+        </nav>
+    </header> -->
+              
+            <!-- <form action="proceso.php" method="post" name="frm">
+                <h2 id="titulo-contacto">Contacto</h2>
+                <p>Nombre</p>
+                <input type="text" name="nombre" placeholder="Nombre" >   
+                <p>Correo</p>
+                <input type="email" name="email" id="email" placeholder="Correo">
+                <p>Número</p>
+                <input type="text" name="numero" placeholder="Número">
+                <p>Asunto</p>
+                <input type="text" name="asunto" placeholder="Asunto">
+                <p>Descripción</p>
+                <textarea id="" name="descripcion" cols="10" rows="8" placeholder="Escribe aquí tu mensaje"></textarea>
+                <br>
+                <input type="submit" value="Enviar" id="botonEnviar">
+                
+            </form> -->
+            <script src="./js/menu.js"></script>
+</body>
+</html>
